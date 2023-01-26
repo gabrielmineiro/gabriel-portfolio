@@ -30,12 +30,11 @@ export const Contacts = () => {
         <ContactSectionContent ref={ref}>
           <motion.div style={{ scale }}>
             <ContactSectionText>
-              <Text type="heading2" color="grey4">
-                Let's talk and{" "}
-                <Text as="span" type="heading2" color="brand1">
-                  develop solutions for your company
+              <Text type="heading1" color="grey4">
+                Bora trocar uma
+                <Text as="span" type="heading1" color="brand1">
+                  ideia?
                 </Text>
-                , together!
               </Text>
             </ContactSectionText>
           </motion.div>
@@ -47,10 +46,6 @@ export const Contacts = () => {
               <ContactCardContent>
                 <Text type="heading4" color="grey4">
                   My Whatsapp
-                </Text>
-                <Text color="grey2" type="body2">
-                  I'm available for a voice chat, let's about creativity
-                  together?
                 </Text>
                 <Text
                   as="a"
@@ -71,9 +66,6 @@ export const Contacts = () => {
               <ContactCardContent>
                 <Text type="heading4" color="grey4">
                   My email
-                </Text>
-                <Text color="grey2" type="body2">
-                  Send me an email reporting feedbacks, suggestions and ideas
                 </Text>
 
                 <Text
@@ -97,10 +89,6 @@ export const Contacts = () => {
               <ContactCardContent>
                 <Text type="heading4" color="grey4">
                   My LinkedIn
-                </Text>
-                <Text color="grey2" type="body2">
-                  We can create more constant interactions as well as a sharing
-                  network
                 </Text>
                 <Text
                   as="a"
